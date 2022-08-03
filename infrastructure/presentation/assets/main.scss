@@ -1,0 +1,17 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #302c2c;
+}
+
+@mixin center-aligned-flex {
+  display: flex;
+  align-items: center;
+}
+
+$menuColor: #403c44;
+$mainBackgroundColor: #302c2c;
